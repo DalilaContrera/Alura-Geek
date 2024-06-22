@@ -1,23 +1,34 @@
 {
-    "products": [
-        {
-            "name": "Regaliz",
-            "price": "20000",
-            "image": "https://media.istockphoto.com/id/1327093724/es/foto/coloridos-caramelos-de-gelatina-en-espolvoreados-de-az%C3%BAcar-fondo-de-caramelo-de-arco-iris-con.jpg?s=1024x1024&w=is&k=20&c=AqwpwOrzlAz-mmJ2X_NcHahWGpBQ5SoQILysH8-neqs=",
-            "id": 1
-        },
-        {
-            "name": "Caramelos-Piruletas",
-            "price": "17000",
-            "image": "https://media.istockphoto.com/id/1145250337/es/foto/caramelos-de-piruletas-y-jalea-de-az%C3%BAcar-dulce-multicolores.jpg?s=1024x1024&w=is&k=20&c=BShKH9lxHq_9u8jiOCBYUu0Y1yndweE-ifIvQ-qveY4=",
-            "id": 2
-        },
-        {
-            "name": "Caramelos-Surtidos",
-            "price": "17000",
-            "image": "https://media.istockphoto.com/id/675981154/es/foto/mont%C3%B3n-de-caramelos-de-colores-aislado-sobre-fondo-blanco.jpg?s=1024x1024&w=is&k=20&c=PONAzrDY1yqC50ERszIT7JkW-cebbUoxu2pqRMX_Xj8=",
-            "id": 3
-        }
-
-    ]
+  "products": [
+    {
+      "name": "Regaliz",
+      "price": "20000",
+      "image": "https://media.istockphoto.com/id/1327093724/es/foto/coloridos-caramelos-de-gelatina-en-espolvoreados-de-az%C3%BAcar-fondo-de-caramelo-de-arco-iris-con.jpg?s=1024x1024&w=is&k=20&c=AqwpwOrzlAz-mmJ2X_NcHahWGpBQ5SoQILysH8-neqs=",
+      "id": "1"
+    },
+    {
+      "name": "Caramelos-Piruletas",
+      "price": "17000",
+      "image": "https://media.istockphoto.com/id/1145250337/es/foto/caramelos-de-piruletas-y-jalea-de-az%C3%BAcar-dulce-multicolores.jpg?s=1024x1024&w=is&k=20&c=BShKH9lxHq_9u8jiOCBYUu0Y1yndweE-ifIvQ-qveY4=",
+      "id": "2"
+    },
+    {
+      "name": "Caramelos-Surtidos",
+      "price": "17000",
+      "image": "https://media.istockphoto.com/id/675981154/es/foto/mont%C3%B3n-de-caramelos-de-colores-aislado-sobre-fondo-blanco.jpg?s=1024x1024&w=is&k=20&c=PONAzrDY1yqC50ERszIT7JkW-cebbUoxu2pqRMX_Xj8=",
+      "id": "3"
+    },
+    {
+      "id": "6348",
+      "name": "chicle",
+      "price": "3500",
+      "image": "https://www.caramelospaco.com/679-superlarge_default/bola-de-chicle.jpg"
+    },
+    {
+      "id": "6802",
+      "name": "chupetin",
+      "price": "2100",
+      "image": "https://acdn.mitiendanube.com/stores/516/580/products/dlizt261nt_1024x11-901050efc0ed32c69d15955089432049-1024-1024.jpg"
+    }
+  ]
 }

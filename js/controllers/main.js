@@ -1,6 +1,8 @@
 import { servicesProducts } from "../services/product-services.js";
 
 const productContainer = document.querySelector("[data-product]");
+const form = document.querySelector("[data-form]");
+
 
 function createCard (name, price, image, id) {
     const card = document.createElement("div");
@@ -27,6 +29,8 @@ productContainer.appendChild(card);
 return card;
 }
 
+/*FALTA AGREGAR EL RESTO DE LA FUNCION DELETE*/ 
+
 const render = async () => {
     try {
         const listProducts = await servicesProducts.productList();
@@ -44,5 +48,18 @@ const render = async () => {
         console.log(error);
     }
 };
+
+form.addEventListener("submit", (event) => {
+     event.preventDefault();
+
+     const name = document.querySelector("[data-name]").value;
+     const price = document.querySelector("[data-price]").value;
+     const image = document.querySelector("[data-image]").value;
+
+     servicesProducts.createProducts(name, price, image)
+     .then((res) => console.log(res))
+     .catch((err) => console.log(err));
+
+});
 
 render();
