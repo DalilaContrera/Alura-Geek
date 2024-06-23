@@ -1,34 +1,41 @@
 {
   "products": [
     {
-      "name": "Regaliz",
-      "price": "20000",
-      "image": "https://media.istockphoto.com/id/1327093724/es/foto/coloridos-caramelos-de-gelatina-en-espolvoreados-de-az%C3%BAcar-fondo-de-caramelo-de-arco-iris-con.jpg?s=1024x1024&w=is&k=20&c=AqwpwOrzlAz-mmJ2X_NcHahWGpBQ5SoQILysH8-neqs=",
+      "name": "Superman",
+      "price": "35000",
+      "image": "https://w7.pngwing.com/pngs/172/710/png-transparent-superman-batman-funko-action-toy-figures-funko-pop-comics-child-superhero-thumbnail.png",
       "id": "1"
     },
     {
-      "name": "Caramelos-Piruletas",
-      "price": "17000",
-      "image": "https://media.istockphoto.com/id/1145250337/es/foto/caramelos-de-piruletas-y-jalea-de-az%C3%BAcar-dulce-multicolores.jpg?s=1024x1024&w=is&k=20&c=BShKH9lxHq_9u8jiOCBYUu0Y1yndweE-ifIvQ-qveY4=",
+      "name": "Deadpool ",
+      "price": "30000",
+      "image": "https://w7.pngwing.com/pngs/111/533/png-transparent-funko-pop-marvel-universe-deadpool-action-toy-figures-bobblehead-others-fictional-character-marvel-universe-deadpool-thumbnail.png",
       "id": "2"
     },
     {
-      "name": "Caramelos-Surtidos",
-      "price": "17000",
-      "image": "https://media.istockphoto.com/id/675981154/es/foto/mont%C3%B3n-de-caramelos-de-colores-aislado-sobre-fondo-blanco.jpg?s=1024x1024&w=is&k=20&c=PONAzrDY1yqC50ERszIT7JkW-cebbUoxu2pqRMX_Xj8=",
+      "name": "Wolverine",
+      "price": "35000",
+      "image": "https://w7.pngwing.com/pngs/901/741/png-transparent-funko-pop-marvel-wolverine-funko-pop-marvel-wolverine-funko-pop-vinyl-figure-action-toy-figures-wolverine-superhero-fictional-character-wolverine-thumbnail.png",
       "id": "3"
     },
     {
       "id": "6348",
-      "name": "chicle",
-      "price": "3500",
-      "image": "https://www.caramelospaco.com/679-superlarge_default/bola-de-chicle.jpg"
+      "name": "Hulk",
+      "price": "31000",
+      "image": "https://w7.pngwing.com/pngs/603/303/png-transparent-she-hulk-funko-pop-vinyl-figure-action-toy-figures-hulk-marvel-avengers-assemble-superhero-fictional-character-thumbnail.png"
     },
     {
       "id": "6802",
-      "name": "chupetin",
-      "price": "2100",
-      "image": "https://acdn.mitiendanube.com/stores/516/580/products/dlizt261nt_1024x11-901050efc0ed32c69d15955089432049-1024-1024.jpg"
+      "name": "Hiedra Venenosa",
+      "price": "31000",
+      "image": "https://w7.pngwing.com/pngs/414/660/png-transparent-poison-ivy-batman-batgirl-penguin-funko-funko-pop-thumbnail.png"
+    },
+    {
+      "id": "6802",
+      "name": "Batman",
+      "price": "37000",
+      "image": "https://w7.pngwing.com/pngs/529/923/png-transparent-batman-action-figures-joker-funko-action-toy-figures-retro-pop-comics-dc-comics-fictional-character-thumbnail.png"
     }
+
   ]
 }
