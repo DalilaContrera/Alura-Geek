@@ -1,7 +1,8 @@
 body {
-  width: 100%;
   background: #f6f2f7;
   overflow-x: hidden;
+  max-width: 100%;
+  background: #f6f2f7;
 }
 /* Seccion Header */
 
@@ -40,12 +41,11 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-around;
     width: 95%;
-    margin: auto 5rem;
 }
 
 /* Seccion mis productos */
 .mis-productos{
-  width: 95%;
+  max-width: 95%;
   padding-bottom: 20px;
 }
 
@@ -56,7 +56,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-wrap: wrap;
   height: 50vh;
   gap: 15px;
-  padding: 7px 10px;
+  padding: 15px 10px;
 
 }
 
@@ -66,6 +66,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #423232;
   margin-bottom: 15px;
   background-color:rgba(29, 245, 252, 0.854);
+  margin-left: 3rem;
 }
 
 h1{
@@ -200,4 +201,43 @@ margin-left: 20rem;
   height: auto;
 }
 
-/* Seccion Responsive */
+
+/* Seccion Responsive tablet */
+@media (max-width: 768px) {
+.header .footer{
+  max-width: 100%;
+}
+
+.main-container{
+  flex-direction: column-reverse;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.img-container{
+  width: 180px;
+  height: auto;
+}
+
+.products-container{
+margin-right: 4rem;
+}
+
+.header, .footer{
+  width: 100%;
+  border: none;
+}
+
+.agregar-productos{
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-right: auto;
+  margin-left: 3rem;
+}
+
+.mis-productos{
+  width: 100%;
+  margin:0  4rem;
+}
+
+}
