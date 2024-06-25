@@ -24,12 +24,38 @@ function createCard (name, price, image, id) {
                     </div>
 `;
 
+const deleteButton = card.querySelector(".delete-button");
+deleteButton.addEventListener("click", () => handleDelete(id));
+
 
 productContainer.appendChild(card);
 return card;
 }
 
-/*FALTA AGREGAR EL RESTO DE LA FUNCION DELETE*/ 
+/*AGREGO EL RESTO DE LA FUNCION DELETE*/
+const handleDelete = (id) => {
+  servicesProducts.deleteProduct(id)
+      .then(() => {
+          const card = productContainer.querySelector(`[data-id="${id}"]`).closest(".card");
+          card.remove();
+          console.log("Producto eliminado");
+      })
+      .catch((err) => console.log(err));
+};
+
+
+
+productContainer.addEventListener("click", (event) => {
+  if (event.target.classList.contains("delete-button")) {
+      const id = event.target.dataset.id;
+      servicesProducts.deleteProduct(id)
+          .then(() => {
+              event.target.closest(".card").remove();
+              console.log("Producto eliminado");
+          })
+          .catch((err) => console.log(err));
+  }
+});
 
 const render = async () => {
     try {

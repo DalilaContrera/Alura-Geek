@@ -22,13 +22,16 @@ const createProducts = (name, price, image) => {
 };
 
 const deleteProduct = (id) => {
-    return fetch("http://localhost:3000/products", {
+    return fetch(`http://localhost:3000/products/${id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json",
         },
-        })
-    }
+    })
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
+};
+
 
 
 
@@ -36,6 +39,7 @@ const deleteProduct = (id) => {
 export const servicesProducts = {
     productList,
     createProducts,
+    deleteProduct,
 };
 
 
