@@ -1,7 +1,6 @@
 body {
   background: #f6f2f7;
   overflow-x: hidden;
-  width: 100%;
   background: #f6f2f7;
 }
 /* Seccion Header */
@@ -218,6 +217,16 @@ margin-left: 20rem;
 .header {
   padding-top: 5px;
   height: 150px;
+  width: 110%;
+}
+
+.logo_encabezado {
+width: 50px;
+height: auto;
+}
+
+.titulo_encabezado{
+  font-size: 30px;
 }
 
 .products-container{
@@ -226,21 +235,30 @@ margin-left: 20rem;
 
 .card-container--info{
   gap: 5px;
-  font-size: 20px;
-  font-weight: 500;
-  margin:0  25px;
+  font-size: 17px;
+  font-weight: 400;
+  margin:0  20px;
 }
 
 .img-container{
-  width: 130px;
+  width: 50px;
   height: auto;
+  padding: 3px 10px;
+}
+
+.footer{
+  width: 115%;
 }
 
 .footer-logo{
-  width: 15%;
+  width: 40px;
   height: auto;
 }
 
+.footer-container{
+    padding-right: 260px;
+    padding-left: 10px;
+}
 }
 
 
@@ -254,12 +272,17 @@ margin-left: 20rem;
 }
 
 .img-container{
-  width: 200px;
+  width: 180px;
   height: auto;
 }
 
 .products-container{
 margin-right: 4rem;
+}
+
+.card{
+  margin: 0 0;
+  padding: 0 0 ;
 }
 
 .header, .footer{
@@ -275,7 +298,7 @@ margin-right: 4rem;
 
 .mis-productos{
   width: 100%;
-  margin:0  4rem;
+  margin:0  2rem;
 }
 
 }
