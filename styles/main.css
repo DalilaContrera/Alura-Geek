@@ -1,7 +1,7 @@
 body {
   background: #f6f2f7;
   overflow-x: hidden;
-  max-width: 100%;
+  width: 100%;
   background: #f6f2f7;
 }
 /* Seccion Header */
@@ -41,12 +41,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-around;
     width: 95%;
+    padding-left: 10px;
 }
 
 /* Seccion mis productos */
 .mis-productos{
   max-width: 95%;
   padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 .products-container{
@@ -56,7 +58,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-wrap: wrap;
   height: 50vh;
   gap: 15px;
-  padding: 15px 10px;
+  padding: 15px 50px;
 
 }
 
@@ -81,7 +83,7 @@ h1{
 .card-container--info{
   display: flex;
   flex-direction: row;
-  gap: 7px;
+  gap: 5px;
   font-size: 20px;
   font-weight: 600;
   margin-left: 2rem;
@@ -101,6 +103,16 @@ h1{
   height: 20px;
 }
 
+i{
+  width: 5px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+i:hover{
+  cursor: pointer;
+}
 /* Seccion agregar productos */
 
 .agregar-productos{
@@ -163,7 +175,6 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   position: relative;
 }
 
@@ -201,21 +212,49 @@ margin-left: 20rem;
   height: auto;
 }
 
+/* Seccion mobile */
+@media (max-width: 425px) {
+
+.header {
+  padding-top: 5px;
+  height: 150px;
+}
+
+.products-container{
+  gap: 15px;
+}
+
+.card-container--info{
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  margin:0  25px;
+}
+
+.img-container{
+  width: 130px;
+  height: auto;
+}
+
+.footer-logo{
+  width: 15%;
+  height: auto;
+}
+
+}
+
+
 
 /* Seccion Responsive tablet */
 @media (max-width: 768px) {
-.header .footer{
-  max-width: 100%;
-}
-
 .main-container{
   flex-direction: column-reverse;
-  width: 100%;
+  width: 95%;
   padding-right: 2rem;
 }
 
 .img-container{
-  width: 180px;
+  width: 200px;
   height: auto;
 }
 
@@ -224,7 +263,6 @@ margin-right: 4rem;
 }
 
 .header, .footer{
-  width: 100%;
   border: none;
 }
 

@@ -18,7 +18,7 @@ function createCard (name, price, image, id) {
                       <div class="card-container--value">
                         <p>${price}</p>
                         <button class="delete-button" data-id="${id}">
-                            <img src="./assets/trash.png" alt="Eliminar">    
+                            <i class="fas fa-trash-alt"></i>     
                         </button>
                       </div>
                     </div>
@@ -61,6 +61,12 @@ const render = async () => {
     try {
         const listProducts = await servicesProducts.productList();
  
+
+        if (listProducts.length === 0) {
+          // Mostrar mensaje de que no hay productos
+          productContainer.innerHTML = "<p>No hay productos disponibles.</p>";
+      } else {
+        
         listProducts.forEach(product => {
           productContainer.appendChild(createCard(
             product.name,
@@ -69,7 +75,7 @@ const render = async () => {
             product.id
           )
         )
-        });
+        }) };
       } catch (error) {
         console.log(error);
     }
